@@ -12,6 +12,9 @@ direct_mapping = [ (r'BOOL',                r'bool'),
                    (r'CGPoint',             r'CCPoint'),
                    (r'CGFloat',             r'float'),
                    (r'UITouch',             r'CCTouch'),
+                   (r'UIEvent',             r'CCEvent'),
+                   (r'NSSet',               r'CCSet'),
+                   (r'NSArray',             r'CCArray'),
                    (r'.contentSize',        r'->getContentSize()'),
                    (r'.boundingBox',        r'->boundingBox()'),
                    (r'%@',                  r'%s'),
@@ -30,7 +33,8 @@ properties = [ 'position',
                'opacity',
                'color',
                'contentSize',
-               'tag'
+               'tag',
+               'zOrder'
              ]
 
 actions = [ 'removeFromParentAndCleanup',
