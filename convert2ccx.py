@@ -34,6 +34,7 @@ properties = [ 'position',
                'color',
                'contentSize',
                'tag',
+               'rotation',
                'zOrder'
              ]
 
