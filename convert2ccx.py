@@ -41,7 +41,8 @@ actions = [ 'removeFromParentAndCleanup',
             'removeAllChildrenWithCleanup',
             'addChild',
             'removeObjectAtIndex',
-            'addObject'
+            'addObject',
+            'runAction'
           ]
 
 for i in range(len(lines)):
