@@ -1,4 +1,3 @@
-# read lines
 import re
 
 lines = open('input.txt').readlines()
