@@ -35,6 +35,7 @@ properties = [ 'position',
                'contentSize',
                'tag',
                'rotation',
+               'anchorPoint',
                'zOrder'
              ]
 
